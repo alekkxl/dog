@@ -41,5 +41,5 @@ def buy_all_pets(max_price):
 
 if __name__ == '__main__':
     for i in range(10):
-        t = threading.Thread(target=buy_all_pets, args=(50,))
+        t = threading.Thread(target=buy_all_pets, args=(10,))
         t.start()
